@@ -1,0 +1,6 @@
+framework module ZJMain {
+  umbrella header "ZJMain-umbrella.h"
+
+  export *
+  module * { export * }
+}

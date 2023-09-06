@@ -1,0 +1,89 @@
+{
+  "name": "ZJMain",
+  "version": "0.1.0",
+  "summary": "A short description of ZJMain.",
+  "homepage": "https://github.com/51930184@qq.com/ZJMain",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "51930184@qq.com": "yonathan@asetku.com"
+  },
+  "source": {
+    "git": "https://github.com/51930184@qq.com/ZJMain.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "ZJMain/Classes/**/*",
+  "resource_bundles": {
+    "ZJMain": [
+      "ZJMain/Assets/**/*"
+    ]
+  },
+  "static_framework": true,
+  "dependencies": {
+    "Then": [
+
+    ],
+    "Action": [
+
+    ],
+    "Charts": [
+
+    ],
+    "RxCocoa": [
+
+    ],
+    "RxSwift": [
+
+    ],
+    "SwiftDate": [
+
+    ],
+    "RxSwiftExt": [
+
+    ],
+    "RxDataSources": [
+
+    ],
+    "JXSegmentedView": [
+
+    ],
+    "JXPagingView/Paging": [
+
+    ],
+    "ZJRequest": [
+
+    ],
+    "ZJLocalizable": [
+
+    ],
+    "ZJRouter": [
+
+    ],
+    "ZJRoutableTargets": [
+
+    ],
+    "ZJBase": [
+
+    ],
+    "ZJExtension": [
+
+    ],
+    "ZJHUD": [
+
+    ],
+    "ZJCommonView": [
+
+    ],
+    "ZJRefresh": [
+
+    ],
+    "ZJCommonDefines": [
+
+    ]
+  }
+}
