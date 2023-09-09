@@ -16,4 +16,10 @@ target 'ZJMain_Example' do
   pod 'ZJRefresh',           :git => 'git@github.com:zhang232425/ZJRefresh.git', :branch => 'main'
   pod 'ZJCommonDefines',     :git => 'git@github.com:zhang232425/ZJCommonDefines.git', :branch => 'main'
   
+  pod 'ZJHome',              :git => 'git@github.com:zhang232425/ZJHome.git', :branch => 'main'
+  pod 'ZJAssets',            :git => 'git@github.com:zhang232425/ZJAssets.git', :branch => 'main'
+  pod 'ZJPersonal',          :git => 'git@github.com:zhang232425/ZJPersonal.git', :branch => 'main'
+  #  pod 'ZJFund',              :git => '', :branch => 'main'
+  
+  
 end

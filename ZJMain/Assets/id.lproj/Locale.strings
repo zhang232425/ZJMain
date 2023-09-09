@@ -1,0 +1,18 @@
+/* 
+  Locale.strings
+  Pods
+
+  Created by Jercan on 2023/9/7.
+  
+*/
+
+"lender" = "Pendana";
+"lenderDesc" = "Bersedia mendanai";
+"borrower" = "Peminjam";
+"borrowerDesc" = "Bersedia meminjam";
+"go" = "Go";
+
+"home" = "Beranda";
+"fund" = "Keuangan";
+"assets" = "Portofolio";
+"my" = "Saya";

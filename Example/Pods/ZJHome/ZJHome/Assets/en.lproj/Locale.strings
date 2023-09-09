@@ -1,0 +1,19 @@
+/* 
+  Locale.strings
+  Pods
+
+  Created by Jercan on 2022/11/1.
+  
+*/
+
+"networkOffline" = "The Internet connection appears to be offline";
+"requestTimedOut" = "Request Timeout";
+"requestFailed" = "Request failed, please try again";
+
+"welcome" = "Welcome to OneAset";
+"login" = "Login";
+
+"noSignal" = "No signal yet";
+"refresh" = "Refresh";
+
+"guideHeaderName" = "Start the Wealth Journey";

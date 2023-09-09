@@ -3,6 +3,7 @@ PODS:
     - RxCocoa (~> 6.0)
     - RxSwift (~> 6.0)
   - Alamofire (5.8.0)
+  - BadgeSwift (8.0.0)
   - Charts (3.6.0):
     - Charts/Core (= 3.6.0)
   - Charts/Core (3.6.0)
@@ -10,6 +11,8 @@ PODS:
   - DeviceKit (4.9.0)
   - Differentiator (5.0.0)
   - ESPullToRefresh (2.9.3)
+  - ESTabBarController-swift (2.8.0)
+  - GKCycleScrollView (1.2.1)
   - HandyJSON (5.0.2)
   - JXPagingView/Paging (2.1.2)
   - JXSegmentedView (1.3.0)
@@ -45,6 +48,8 @@ PODS:
   - RxSwiftExt/RxCocoa (6.0.1):
     - RxCocoa (~> 6.0)
     - RxSwiftExt/Core
+  - SDCycleScrollView (1.82):
+    - SDWebImage (>= 5.0.0)
   - SDWebImage (5.18.0):
     - SDWebImage/Core (= 5.18.0)
   - SDWebImage/Core (5.18.0)
@@ -52,6 +57,27 @@ PODS:
   - SwiftDate (6.3.1)
   - SwiftyJSON (5.0.1)
   - Then (3.0.0)
+  - ZJAssets (0.1.0):
+    - Action
+    - Charts
+    - JXPagingView/Paging
+    - JXSegmentedView
+    - RxCocoa
+    - RxDataSources
+    - RxSwift
+    - RxSwiftExt
+    - SwiftDate
+    - Then
+    - ZJBase
+    - ZJCommonDefines
+    - ZJCommonView
+    - ZJExtension
+    - ZJHUD
+    - ZJLocalizable
+    - ZJRefresh
+    - ZJRequest
+    - ZJRoutableTargets
+    - ZJRouter
   - ZJBase (0.1.0):
     - RTRootNavigationController
     - ZJExtension
@@ -63,6 +89,25 @@ PODS:
   - ZJExtension (0.1.0):
     - CryptoSwift
     - SDWebImage
+  - ZJHome (0.1.0):
+    - Action
+    - RxCocoa
+    - RxSwift
+    - RxSwiftExt
+    - SDCycleScrollView
+    - SnapKit
+    - Then
+    - ZJBase
+    - ZJCommonDefines
+    - ZJCommonView
+    - ZJExtension
+    - ZJHUD
+    - ZJLocalizable
+    - ZJRefresh
+    - ZJRequest
+    - ZJRoutableTargets
+    - ZJRouter
+    - ZJValidator
   - ZJHUD (0.1.0):
     - NVActivityIndicatorView
     - SnapKit
@@ -71,6 +116,30 @@ PODS:
     - KeychainSwift
   - ZJLocalizable (0.1.0)
   - ZJMain (0.1.0):
+    - Action
+    - BadgeSwift
+    - Charts
+    - ESTabBarController-swift
+    - GKCycleScrollView
+    - JXPagingView/Paging
+    - JXSegmentedView
+    - RxCocoa
+    - RxDataSources
+    - RxSwift
+    - RxSwiftExt
+    - SwiftDate
+    - Then
+    - ZJBase
+    - ZJCommonDefines
+    - ZJCommonView
+    - ZJExtension
+    - ZJHUD
+    - ZJLocalizable
+    - ZJRefresh
+    - ZJRequest
+    - ZJRoutableTargets
+    - ZJRouter
+  - ZJPersonal (0.1.0):
     - Action
     - Charts
     - JXPagingView/Paging
@@ -110,13 +179,18 @@ PODS:
   - ZJRoutableTargets (0.1.0):
     - ZJRouter
   - ZJRouter (0.1.0)
+  - ZJValidator (0.1.0):
+    - ZJLocalizable
 
 DEPENDENCIES:
+  - "ZJAssets (from `git@github.com:zhang232425/ZJAssets.git`, branch `main`)"
   - "ZJBase (from `git@github.com:zhang232425/ZJBase.git`, branch `main`)"
   - "ZJCommonDefines (from `git@github.com:zhang232425/ZJCommonDefines.git`, branch `main`)"
   - "ZJCommonView (from `git@github.com:zhang232425/ZJCommonView.git`, branch `main`)"
   - "ZJExtension (from `git@github.com:zhang232425/ZJExtension.git`, branch `main`)"
+  - "ZJHome (from `git@github.com:zhang232425/ZJHome.git`, branch `main`)"
   - ZJMain (from `../`)
+  - "ZJPersonal (from `git@github.com:zhang232425/ZJPersonal.git`, branch `main`)"
   - "ZJRefresh (from `git@github.com:zhang232425/ZJRefresh.git`, branch `main`)"
   - "ZJRoutableTargets (from `git@github.com:zhang232425/ZJRoutableTargets.git`, branch `main`)"
 
@@ -129,14 +203,18 @@ SPEC REPOS:
     - ZJRegion
     - ZJRequest
     - ZJRouter
+    - ZJValidator
   https://github.com/CocoaPods/Specs.git:
     - Action
     - Alamofire
+    - BadgeSwift
     - Charts
     - CryptoSwift
     - DeviceKit
     - Differentiator
     - ESPullToRefresh
+    - ESTabBarController-swift
+    - GKCycleScrollView
     - HandyJSON
     - JXPagingView
     - JXSegmentedView
@@ -149,6 +227,7 @@ SPEC REPOS:
     - RxRelay
     - RxSwift
     - RxSwiftExt
+    - SDCycleScrollView
     - SDWebImage
     - SnapKit
     - SwiftDate
@@ -156,6 +235,9 @@ SPEC REPOS:
     - Then
 
 EXTERNAL SOURCES:
+  ZJAssets:
+    :branch: main
+    :git: "git@github.com:zhang232425/ZJAssets.git"
   ZJBase:
     :branch: main
     :git: "git@github.com:zhang232425/ZJBase.git"
@@ -168,8 +250,14 @@ EXTERNAL SOURCES:
   ZJExtension:
     :branch: main
     :git: "git@github.com:zhang232425/ZJExtension.git"
+  ZJHome:
+    :branch: main
+    :git: "git@github.com:zhang232425/ZJHome.git"
   ZJMain:
     :path: "../"
+  ZJPersonal:
+    :branch: main
+    :git: "git@github.com:zhang232425/ZJPersonal.git"
   ZJRefresh:
     :branch: main
     :git: "git@github.com:zhang232425/ZJRefresh.git"
@@ -178,6 +266,9 @@ EXTERNAL SOURCES:
     :git: "git@github.com:zhang232425/ZJRoutableTargets.git"
 
 CHECKOUT OPTIONS:
+  ZJAssets:
+    :commit: f3114707043193f8edeaedc62590726345de7647
+    :git: "git@github.com:zhang232425/ZJAssets.git"
   ZJBase:
     :commit: 329656def2f609e6e892bf00919f196ec062ad1f
     :git: "git@github.com:zhang232425/ZJBase.git"
@@ -188,8 +279,14 @@ CHECKOUT OPTIONS:
     :commit: 5006c5b7307f8f853a7b978061705c56267b3006
     :git: "git@github.com:zhang232425/ZJCommonView.git"
   ZJExtension:
-    :commit: 381e72bcd9245e371925aaef08d7dadaf1822971
+    :commit: 9451149190f63f75a12c0b2404a27cc482b26a36
     :git: "git@github.com:zhang232425/ZJExtension.git"
+  ZJHome:
+    :commit: 548d513805d67ea3dd2c195f2e1cb51d95bcdb7f
+    :git: "git@github.com:zhang232425/ZJHome.git"
+  ZJPersonal:
+    :commit: 8c97e03ba5e193a09ec5e6fccdc54a1fe546d66c
+    :git: "git@github.com:zhang232425/ZJPersonal.git"
   ZJRefresh:
     :commit: d2855ff0b65e3142eb90a561827b7dd07fec044d
     :git: "git@github.com:zhang232425/ZJRefresh.git"
@@ -200,11 +297,14 @@ CHECKOUT OPTIONS:
 SPEC CHECKSUMS:
   Action: 47f1825511907b4fcd79dd7a7db9526c20f78018
   Alamofire: 0e92e751b3e9e66d7982db43919d01f313b8eb91
+  BadgeSwift: a81547ffde1f462bb5fc02e3fa3fdcbc1b888354
   Charts: 888b39ae772b3dc79d0a0e659f0419ff9bd3e963
   CryptoSwift: c4f2debceb38bf44c80659afe009f71e23e4a082
   DeviceKit: 847709bf70b78fd9ab765bd571fb9f5f815c3fc1
   Differentiator: e8497ceab83c1b10ca233716d547b9af21b9344d
   ESPullToRefresh: 0d68daa602b343c81753a1b95e09fd0bfcddfd40
+  ESTabBarController-swift: 05593a6ad64700b03c0eb60ff625916370aa4136
+  GKCycleScrollView: 57b4586bdb47c970734fab043c0215ceb4b1fd5c
   HandyJSON: 9e4e236f5d2dbefad5155a77417bbea438201c03
   JXPagingView: 90924b364a2ff7e94db534fad1fa50925ff69ee4
   JXSegmentedView: fec0d335355b6e019c494fe2e030bde8a36d2df6
@@ -217,26 +317,31 @@ SPEC CHECKSUMS:
   RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
   RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
   RxSwiftExt: d61c4b9b06e0a448041b1c659e0f1b5c5a035afc
+  SDCycleScrollView: a0d74c3384caa72bdfc81470bdbc8c14b3e1fbcf
   SDWebImage: 182830bcddc30cde95fbc60dfe4badc3553d94ba
   SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
   SwiftDate: 72d28954e8e1c6c1c0f917ccc8005e4f83c7d4b2
   SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
   Then: 844265ae87834bbe1147d91d5d41a404da2ec27d
+  ZJAssets: 8963b9da5fc99f1facd2e1a802fc53fadbe651d8
   ZJBase: a38dc134dca5ad2c40768bd37300e971c35f6214
   ZJCommonDefines: 9fd1e19aafb99bc9014e54e665520bb95aa5a22c
   ZJCommonView: e62b96fa97474a99971531e70e5e90c749d90629
   ZJDevice: bfc36b209a264aa5b877a733c6a7cffa856038db
   ZJExtension: 696a53ccf69ba7171693e4c370d2672a62a4dfd9
+  ZJHome: 9bb199f25fbc7e2767d3be7057a8526687becf3b
   ZJHUD: d5ca2144a62af4331f7f58386f5e4fbc5f5b2d01
   ZJKeychain: 056dd2cf24a6d44cb41677290742fe46cac94d39
   ZJLocalizable: 3c925ba648064d1da4ddc70c29335d4029fc0445
-  ZJMain: 98f09996aeb2f7fd777d33996b26069f2ecad814
+  ZJMain: ec67d14368b66ce321b4d766906db162527ab54f
+  ZJPersonal: a941569fa3ddb49cf66ac1c8d660c5e71a31a431
   ZJRefresh: 2ab367241aea892e43afa57498d07c47f4c38897
   ZJRegion: e077f30a1ebf32398f2e9af9380a7fe1ab4ffc61
   ZJRequest: cbca3f9b01504851babe3d409121abe1e9560f1b
   ZJRoutableTargets: 617c378cddd85417abfe361d7234aabf58761cd5
   ZJRouter: 2ae914db45b7844d11cb186d4de4dff75a5085b9
+  ZJValidator: f1f4767a1a433ca41d2f33e0207172aa48afe58e
 
-PODFILE CHECKSUM: 82142cca016974e7c9df51cd19a9b9ecae44f1a3
+PODFILE CHECKSUM: 9b2a6d588bcdeffa8dc9868b2dc295cb9ad87ad0
 
 COCOAPODS: 1.11.2

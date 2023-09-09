@@ -9,6 +9,9 @@
 import UIKit
 import ZJMain
 import ZJRoutableTargets
+import ZJHome
+import ZJAssets
+import ZJPersonal
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -19,6 +22,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
         ZJMainModule().register()
+        ZJHomeModule().register()
+        ZJAssetsModule().register()
+        ZJPersonalModule().register()
         
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.rootViewController = ZJMainRoutableTarget.entry.viewController

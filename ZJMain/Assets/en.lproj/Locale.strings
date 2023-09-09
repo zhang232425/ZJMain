@@ -1,0 +1,18 @@
+/* 
+  Locale.strings
+  Pods
+
+  Created by Jercan on 2023/9/7.
+  
+*/
+
+"lender" = "Lender";
+"lenderDesc" = "Willing to fund";
+"borrower" = "Borrower";
+"borrowerDesc" = "Willing to borrow";
+"go" = "Go";
+
+"home" = "Home";
+"fund" = "Fund";
+"assets" = "Assets";
+"my" = "My";

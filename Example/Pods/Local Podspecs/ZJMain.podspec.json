@@ -25,6 +25,9 @@
   },
   "static_framework": true,
   "dependencies": {
+    "ESTabBarController-swift": [
+
+    ],
     "Then": [
 
     ],
@@ -53,6 +56,12 @@
 
     ],
     "JXPagingView/Paging": [
+
+    ],
+    "GKCycleScrollView": [
+
+    ],
+    "BadgeSwift": [
 
     ],
     "ZJRequest": [

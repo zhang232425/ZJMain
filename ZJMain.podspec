@@ -26,6 +26,7 @@ Pod::Spec.new do |s|
 
   s.static_framework = true
   
+  s.dependency 'ESTabBarController-swift'
   s.dependency 'Then'
   s.dependency 'Action'
   s.dependency 'Charts'
@@ -36,6 +37,8 @@ Pod::Spec.new do |s|
   s.dependency 'RxDataSources'
   s.dependency 'JXSegmentedView'
   s.dependency 'JXPagingView/Paging'
+  s.dependency 'GKCycleScrollView'
+  s.dependency 'BadgeSwift'
   
   s.dependency 'ZJRequest'
   s.dependency 'ZJLocalizable'
