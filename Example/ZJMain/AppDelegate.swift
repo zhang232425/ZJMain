@@ -10,6 +10,7 @@ import UIKit
 import ZJMain
 import ZJRoutableTargets
 import ZJHome
+import ZJFund
 import ZJAssets
 import ZJPersonal
 
@@ -23,6 +24,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         ZJMainModule().register()
         ZJHomeModule().register()
+        ZJFundModule().register()
         ZJAssetsModule().register()
         ZJPersonalModule().register()
         

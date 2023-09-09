@@ -19,7 +19,7 @@ target 'ZJMain_Example' do
   pod 'ZJHome',              :git => 'git@github.com:zhang232425/ZJHome.git', :branch => 'main'
   pod 'ZJAssets',            :git => 'git@github.com:zhang232425/ZJAssets.git', :branch => 'main'
   pod 'ZJPersonal',          :git => 'git@github.com:zhang232425/ZJPersonal.git', :branch => 'main'
-  #  pod 'ZJFund',              :git => '', :branch => 'main'
+  pod 'ZJFund',              :git => 'git@github.com:zhang232425/ZJFund.git', :branch => 'main'
   
   
 end

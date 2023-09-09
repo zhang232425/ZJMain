@@ -60,7 +60,9 @@ private extension ZJTabBarController {
         home.tabBarItem = ESTabBarItem(item: .home)
         controllers.append(home)
         
-        // let fund = RTContainerNavigationController(rootViewController: <#T##UIViewController#>)
+        let fund = RTContainerNavigationController(rootViewController: ZJFundRoutableTarget.fund.viewController!)
+        fund.tabBarItem = ESTabBarItem(item: .fund)
+        controllers.append(fund)
         
         let assets = RTContainerNavigationController(rootViewController: ZJAssetsRoutableTarget.assets.viewController!)
         assets.tabBarItem = ESTabBarItem(item: .assets)

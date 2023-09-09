@@ -89,6 +89,21 @@ PODS:
   - ZJExtension (0.1.0):
     - CryptoSwift
     - SDWebImage
+  - ZJFund (0.1.0):
+    - Action
+    - RxCocoa
+    - RxSwift
+    - Then
+    - ZJBase
+    - ZJCommonDefines
+    - ZJCommonView
+    - ZJExtension
+    - ZJHUD
+    - ZJLocalizable
+    - ZJRefresh
+    - ZJRequest
+    - ZJRoutableTargets
+    - ZJRouter
   - ZJHome (0.1.0):
     - Action
     - RxCocoa
@@ -188,6 +203,7 @@ DEPENDENCIES:
   - "ZJCommonDefines (from `git@github.com:zhang232425/ZJCommonDefines.git`, branch `main`)"
   - "ZJCommonView (from `git@github.com:zhang232425/ZJCommonView.git`, branch `main`)"
   - "ZJExtension (from `git@github.com:zhang232425/ZJExtension.git`, branch `main`)"
+  - "ZJFund (from `git@github.com:zhang232425/ZJFund.git`, branch `main`)"
   - "ZJHome (from `git@github.com:zhang232425/ZJHome.git`, branch `main`)"
   - ZJMain (from `../`)
   - "ZJPersonal (from `git@github.com:zhang232425/ZJPersonal.git`, branch `main`)"
@@ -250,6 +266,9 @@ EXTERNAL SOURCES:
   ZJExtension:
     :branch: main
     :git: "git@github.com:zhang232425/ZJExtension.git"
+  ZJFund:
+    :branch: main
+    :git: "git@github.com:zhang232425/ZJFund.git"
   ZJHome:
     :branch: main
     :git: "git@github.com:zhang232425/ZJHome.git"
@@ -279,8 +298,11 @@ CHECKOUT OPTIONS:
     :commit: 5006c5b7307f8f853a7b978061705c56267b3006
     :git: "git@github.com:zhang232425/ZJCommonView.git"
   ZJExtension:
-    :commit: 9451149190f63f75a12c0b2404a27cc482b26a36
+    :commit: c2ae1328ecd295f2a69afd9909879fb1748cabf2
     :git: "git@github.com:zhang232425/ZJExtension.git"
+  ZJFund:
+    :commit: a12ad0b8a4fa893918b7f3fa8485ff21ffb70b76
+    :git: "git@github.com:zhang232425/ZJFund.git"
   ZJHome:
     :commit: 548d513805d67ea3dd2c195f2e1cb51d95bcdb7f
     :git: "git@github.com:zhang232425/ZJHome.git"
@@ -291,7 +313,7 @@ CHECKOUT OPTIONS:
     :commit: d2855ff0b65e3142eb90a561827b7dd07fec044d
     :git: "git@github.com:zhang232425/ZJRefresh.git"
   ZJRoutableTargets:
-    :commit: b4cefe467152765c60245e97c1075bb3f8e0ad1f
+    :commit: e1e8df9484a8d3fb26b232a25548ef8a3ffd717a
     :git: "git@github.com:zhang232425/ZJRoutableTargets.git"
 
 SPEC CHECKSUMS:
@@ -329,6 +351,7 @@ SPEC CHECKSUMS:
   ZJCommonView: e62b96fa97474a99971531e70e5e90c749d90629
   ZJDevice: bfc36b209a264aa5b877a733c6a7cffa856038db
   ZJExtension: 696a53ccf69ba7171693e4c370d2672a62a4dfd9
+  ZJFund: ac20e2f81e24ae10617f451eb7e25ce36e3cd852
   ZJHome: 9bb199f25fbc7e2767d3be7057a8526687becf3b
   ZJHUD: d5ca2144a62af4331f7f58386f5e4fbc5f5b2d01
   ZJKeychain: 056dd2cf24a6d44cb41677290742fe46cac94d39
@@ -342,6 +365,6 @@ SPEC CHECKSUMS:
   ZJRouter: 2ae914db45b7844d11cb186d4de4dff75a5085b9
   ZJValidator: f1f4767a1a433ca41d2f33e0207172aa48afe58e
 
-PODFILE CHECKSUM: 9b2a6d588bcdeffa8dc9868b2dc295cb9ad87ad0
+PODFILE CHECKSUM: 4977a394db560ac1557b5e0b9526961c7456754a
 
 COCOAPODS: 1.11.2

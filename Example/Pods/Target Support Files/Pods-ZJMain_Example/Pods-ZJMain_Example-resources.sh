@@ -99,6 +99,7 @@ EOM
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/ZJAssets/ZJAssets.bundle"
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/ZJCommonView/ZJCommonView.bundle"
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/ZJFund/ZJFund.bundle"
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/ZJHUD/ZJHUD.bundle"
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/ZJHome/ZJHome.bundle"
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/ZJMain/ZJMain.bundle"
@@ -111,6 +112,7 @@ fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/ZJAssets/ZJAssets.bundle"
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/ZJCommonView/ZJCommonView.bundle"
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/ZJFund/ZJFund.bundle"
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/ZJHUD/ZJHUD.bundle"
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/ZJHome/ZJHome.bundle"
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/ZJMain/ZJMain.bundle"
