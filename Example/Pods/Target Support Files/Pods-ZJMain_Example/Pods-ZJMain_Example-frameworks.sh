@@ -211,6 +211,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/ZJKeychain/ZJKeychain.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/ZJLocalizable/ZJLocalizable.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/ZJRegion/ZJRegion.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/ZJRemoteNotification/ZJRemoteNotification.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/ZJValidator/ZJValidator.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
@@ -249,6 +250,7 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/ZJKeychain/ZJKeychain.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/ZJLocalizable/ZJLocalizable.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/ZJRegion/ZJRegion.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/ZJRemoteNotification/ZJRemoteNotification.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/ZJValidator/ZJValidator.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then

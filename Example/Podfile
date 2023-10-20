@@ -9,19 +9,19 @@ target 'ZJMain_Example' do
   
   pod 'ZJMain', :path => '../'
 
-  pod 'ZJRouter',            :git => 'git@github.com:zhang232425/ZJRouter.git', :branch => 'main'
-  pod 'ZJRoutableTargets',   :git => 'git@github.com:zhang232425/ZJRoutableTargets.git', :branch => 'main'
-  pod 'ZJBase',              :git => 'git@github.com:zhang232425/ZJBase.git', :branch => 'main'
-  pod 'ZJExtension',         :git => 'git@github.com:zhang232425/ZJExtension.git', :branch => 'main'
-  pod 'ZJCommonView',        :git => 'git@github.com:zhang232425/ZJCommonView.git', :branch => 'main'
-  pod 'ZJRefresh',           :git => 'git@github.com:zhang232425/ZJRefresh.git', :branch => 'main'
-  pod 'ZJCommonDefines',     :git => 'git@github.com:zhang232425/ZJCommonDefines.git', :branch => 'main'
-  pod 'ZJLoginManager',      :git => 'git@github.com:zhang232425/ZJLoginManager.git', :branch => 'main'
+  pod 'ZJRouter',             :git => 'git@github.com:zhang232425/ZJRouter.git', :branch => 'main'
+  pod 'ZJRoutableTargets',    :git => 'git@github.com:zhang232425/ZJRoutableTargets.git', :branch => 'main'
+  pod 'ZJBase',               :git => 'git@github.com:zhang232425/ZJBase.git', :branch => 'main'
+  pod 'ZJExtension',          :git => 'git@github.com:zhang232425/ZJExtension.git', :branch => 'main'
+  pod 'ZJCommonView',         :git => 'git@github.com:zhang232425/ZJCommonView.git', :branch => 'main'
+  pod 'ZJRefresh',            :git => 'git@github.com:zhang232425/ZJRefresh.git', :branch => 'main'
+  pod 'ZJCommonDefines',      :git => 'git@github.com:zhang232425/ZJCommonDefines.git', :branch => 'main'
+  pod 'ZJLoginManager',       :git => 'git@github.com:zhang232425/ZJLoginManager.git', :branch => 'main'
+  pod 'ZJRemoteNotification', :git => 'git@github.com:zhang232425/ZJRemoteNotification.git', :branch => 'main'
   
-  pod 'ZJHome',              :git => 'git@github.com:zhang232425/ZJHome.git', :branch => 'main'
-  pod 'ZJAssets',            :git => 'git@github.com:zhang232425/ZJAssets.git', :branch => 'main'
-  pod 'ZJPersonal',          :git => 'git@github.com:zhang232425/ZJPersonal.git', :branch => 'main'
-  pod 'ZJFund',              :git => 'git@github.com:zhang232425/ZJFund.git', :branch => 'main'
-  
+  pod 'ZJHome',               :git => 'git@github.com:zhang232425/ZJHome.git', :branch => 'main'
+  pod 'ZJAssets',             :git => 'git@github.com:zhang232425/ZJAssets.git', :branch => 'main'
+  pod 'ZJPersonal',           :git => 'git@github.com:zhang232425/ZJPersonal.git', :branch => 'main'
+  pod 'ZJFund',               :git => 'git@github.com:zhang232425/ZJFund.git', :branch => 'main'
   
 end

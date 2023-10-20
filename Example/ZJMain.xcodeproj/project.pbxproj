@@ -264,6 +264,7 @@
 				"${BUILT_PRODUCTS_DIR}/ZJKeychain/ZJKeychain.framework",
 				"${BUILT_PRODUCTS_DIR}/ZJLocalizable/ZJLocalizable.framework",
 				"${BUILT_PRODUCTS_DIR}/ZJRegion/ZJRegion.framework",
+				"${BUILT_PRODUCTS_DIR}/ZJRemoteNotification/ZJRemoteNotification.framework",
 				"${BUILT_PRODUCTS_DIR}/ZJValidator/ZJValidator.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -303,6 +304,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZJKeychain.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZJLocalizable.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZJRegion.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZJRemoteNotification.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZJValidator.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

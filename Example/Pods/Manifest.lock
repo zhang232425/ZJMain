@@ -156,6 +156,7 @@ PODS:
     - ZJLocalizable
     - ZJLoginManager
     - ZJRefresh
+    - ZJRemoteNotification
     - ZJRequest
     - ZJRoutableTargets
     - ZJRouter
@@ -183,6 +184,7 @@ PODS:
   - ZJRefresh (0.1.0):
     - ESPullToRefresh
   - ZJRegion (0.1.0)
+  - ZJRemoteNotification (0.1.0)
   - ZJRequest (0.1.0):
     - ZJRequest/Core (= 0.1.0)
     - ZJRequest/RxSwift (= 0.1.0)
@@ -214,6 +216,7 @@ DEPENDENCIES:
   - ZJMain (from `../`)
   - "ZJPersonal (from `git@github.com:zhang232425/ZJPersonal.git`, branch `main`)"
   - "ZJRefresh (from `git@github.com:zhang232425/ZJRefresh.git`, branch `main`)"
+  - "ZJRemoteNotification (from `git@github.com:zhang232425/ZJRemoteNotification.git`, branch `main`)"
   - "ZJRoutableTargets (from `git@github.com:zhang232425/ZJRoutableTargets.git`, branch `main`)"
   - "ZJRouter (from `git@github.com:zhang232425/ZJRouter.git`, branch `main`)"
 
@@ -289,6 +292,9 @@ EXTERNAL SOURCES:
   ZJRefresh:
     :branch: main
     :git: "git@github.com:zhang232425/ZJRefresh.git"
+  ZJRemoteNotification:
+    :branch: main
+    :git: "git@github.com:zhang232425/ZJRemoteNotification.git"
   ZJRoutableTargets:
     :branch: main
     :git: "git@github.com:zhang232425/ZJRoutableTargets.git"
@@ -327,6 +333,9 @@ CHECKOUT OPTIONS:
   ZJRefresh:
     :commit: d2855ff0b65e3142eb90a561827b7dd07fec044d
     :git: "git@github.com:zhang232425/ZJRefresh.git"
+  ZJRemoteNotification:
+    :commit: e5265f300234a6fea6060a7f6b408ff12f6e91d5
+    :git: "git@github.com:zhang232425/ZJRemoteNotification.git"
   ZJRoutableTargets:
     :commit: e1e8df9484a8d3fb26b232a25548ef8a3ffd717a
     :git: "git@github.com:zhang232425/ZJRoutableTargets.git"
@@ -375,15 +384,16 @@ SPEC CHECKSUMS:
   ZJKeychain: 056dd2cf24a6d44cb41677290742fe46cac94d39
   ZJLocalizable: 3c925ba648064d1da4ddc70c29335d4029fc0445
   ZJLoginManager: c1e2c054e53bf8ce282c5519209c354ecf176ab9
-  ZJMain: d340b8b1c13fd3e4ce462cd0358e9ef7385d4c76
+  ZJMain: 32efbf7e6546608222256797f3976ff65e7d0d8b
   ZJPersonal: a941569fa3ddb49cf66ac1c8d660c5e71a31a431
   ZJRefresh: 2ab367241aea892e43afa57498d07c47f4c38897
   ZJRegion: e077f30a1ebf32398f2e9af9380a7fe1ab4ffc61
+  ZJRemoteNotification: 0bc68dd014e1f8e8160c5cd973a4c4d83a0b162e
   ZJRequest: cbca3f9b01504851babe3d409121abe1e9560f1b
   ZJRoutableTargets: 617c378cddd85417abfe361d7234aabf58761cd5
   ZJRouter: fe06a0f15fa63398436cf3dc68c5ca7eb448c4d6
   ZJValidator: f1f4767a1a433ca41d2f33e0207172aa48afe58e
 
-PODFILE CHECKSUM: 4c502c1309e0fdf38cdfd0caef2acd4dac68bb6a
+PODFILE CHECKSUM: 9187c603f46254d6b977645cf1cf6b3554fdcc83
 
 COCOAPODS: 1.11.2

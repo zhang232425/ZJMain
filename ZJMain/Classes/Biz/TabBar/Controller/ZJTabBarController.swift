@@ -9,6 +9,7 @@ import ESTabBarController_swift
 import RTRootNavigationController
 import ZJRoutableTargets
 import ZJRequest
+import ZJRemoteNotification
 
 class ZJTabBarController: ESTabBarController {
 
@@ -43,7 +44,7 @@ private extension ZJTabBarController {
     func setDeviceToken() {
         
         if ZJRequest.deviceToken == nil {
-//            ZJRequest.deviceToken = ZJRemoteNotification.shared.deviceToken
+            ZJRequest.deviceToken = ZJRemoteNotification.shared.deviceToken
         }
     
     }
