@@ -1,0 +1,27 @@
+{
+  "name": "ZJRouter",
+  "version": "0.1.0",
+  "summary": "A short description of ZJRouter.",
+  "homepage": "https://github.com/zhang232425/ZJRouter",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zhang232425": "519301084@qq.com"
+  },
+  "source": {
+    "git": "git@github.com:zhang232425/ZJRouter.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "ZJRouter/Classes/**/*",
+  "resource_bundles": {
+    "ZJRouter": [
+      "ZJRouter/Assets/**/*"
+    ]
+  },
+  "static_framework": true
+}

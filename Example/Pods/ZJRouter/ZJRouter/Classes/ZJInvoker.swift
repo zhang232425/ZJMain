@@ -7,7 +7,7 @@
 
 import UIKit
 
-public struct ASInvoker {
+public struct ZJInvoker {
     
     private let handler: (ZJRouteContext) -> UIViewController?
     

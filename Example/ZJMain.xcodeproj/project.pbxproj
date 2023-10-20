@@ -195,6 +195,7 @@
 				"${PODS_CONFIGURATION_BUILD_DIR}/ZJFund/ZJFund.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/ZJHUD/ZJHUD.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/ZJHome/ZJHome.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/ZJLoginManager/ZJMain.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/ZJMain/ZJMain.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/ZJPersonal/ZJPersonal.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/ZJRefresh/ZJRefresh.bundle",

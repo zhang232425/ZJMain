@@ -130,6 +130,10 @@ PODS:
   - ZJKeychain (0.1.0):
     - KeychainSwift
   - ZJLocalizable (0.1.0)
+  - ZJLoginManager (0.1.0):
+    - ZJCommonDefines
+    - ZJKeychain
+    - ZJRequest
   - ZJMain (0.1.0):
     - Action
     - BadgeSwift
@@ -150,6 +154,7 @@ PODS:
     - ZJExtension
     - ZJHUD
     - ZJLocalizable
+    - ZJLoginManager
     - ZJRefresh
     - ZJRequest
     - ZJRoutableTargets
@@ -205,10 +210,12 @@ DEPENDENCIES:
   - "ZJExtension (from `git@github.com:zhang232425/ZJExtension.git`, branch `main`)"
   - "ZJFund (from `git@github.com:zhang232425/ZJFund.git`, branch `main`)"
   - "ZJHome (from `git@github.com:zhang232425/ZJHome.git`, branch `main`)"
+  - "ZJLoginManager (from `git@github.com:zhang232425/ZJLoginManager.git`, branch `main`)"
   - ZJMain (from `../`)
   - "ZJPersonal (from `git@github.com:zhang232425/ZJPersonal.git`, branch `main`)"
   - "ZJRefresh (from `git@github.com:zhang232425/ZJRefresh.git`, branch `main`)"
   - "ZJRoutableTargets (from `git@github.com:zhang232425/ZJRoutableTargets.git`, branch `main`)"
+  - "ZJRouter (from `git@github.com:zhang232425/ZJRouter.git`, branch `main`)"
 
 SPEC REPOS:
   "git@github.com:zhang232425/ZJSpecs.git":
@@ -218,7 +225,6 @@ SPEC REPOS:
     - ZJLocalizable
     - ZJRegion
     - ZJRequest
-    - ZJRouter
     - ZJValidator
   https://github.com/CocoaPods/Specs.git:
     - Action
@@ -272,6 +278,9 @@ EXTERNAL SOURCES:
   ZJHome:
     :branch: main
     :git: "git@github.com:zhang232425/ZJHome.git"
+  ZJLoginManager:
+    :branch: main
+    :git: "git@github.com:zhang232425/ZJLoginManager.git"
   ZJMain:
     :path: "../"
   ZJPersonal:
@@ -283,6 +292,9 @@ EXTERNAL SOURCES:
   ZJRoutableTargets:
     :branch: main
     :git: "git@github.com:zhang232425/ZJRoutableTargets.git"
+  ZJRouter:
+    :branch: main
+    :git: "git@github.com:zhang232425/ZJRouter.git"
 
 CHECKOUT OPTIONS:
   ZJAssets:
@@ -298,7 +310,7 @@ CHECKOUT OPTIONS:
     :commit: 5006c5b7307f8f853a7b978061705c56267b3006
     :git: "git@github.com:zhang232425/ZJCommonView.git"
   ZJExtension:
-    :commit: c2ae1328ecd295f2a69afd9909879fb1748cabf2
+    :commit: 6d20ce67b858442ec5cbf537fc6e403b657bd052
     :git: "git@github.com:zhang232425/ZJExtension.git"
   ZJFund:
     :commit: a12ad0b8a4fa893918b7f3fa8485ff21ffb70b76
@@ -306,6 +318,9 @@ CHECKOUT OPTIONS:
   ZJHome:
     :commit: 548d513805d67ea3dd2c195f2e1cb51d95bcdb7f
     :git: "git@github.com:zhang232425/ZJHome.git"
+  ZJLoginManager:
+    :commit: 068da4b18e28d2e9231386c4c769ce42b9ba81c9
+    :git: "git@github.com:zhang232425/ZJLoginManager.git"
   ZJPersonal:
     :commit: 8c97e03ba5e193a09ec5e6fccdc54a1fe546d66c
     :git: "git@github.com:zhang232425/ZJPersonal.git"
@@ -315,6 +330,9 @@ CHECKOUT OPTIONS:
   ZJRoutableTargets:
     :commit: e1e8df9484a8d3fb26b232a25548ef8a3ffd717a
     :git: "git@github.com:zhang232425/ZJRoutableTargets.git"
+  ZJRouter:
+    :commit: a23ae102022b32e672b6ec67a2a28c97c4f3d7e3
+    :git: "git@github.com:zhang232425/ZJRouter.git"
 
 SPEC CHECKSUMS:
   Action: 47f1825511907b4fcd79dd7a7db9526c20f78018
@@ -356,15 +374,16 @@ SPEC CHECKSUMS:
   ZJHUD: d5ca2144a62af4331f7f58386f5e4fbc5f5b2d01
   ZJKeychain: 056dd2cf24a6d44cb41677290742fe46cac94d39
   ZJLocalizable: 3c925ba648064d1da4ddc70c29335d4029fc0445
-  ZJMain: ec67d14368b66ce321b4d766906db162527ab54f
+  ZJLoginManager: c1e2c054e53bf8ce282c5519209c354ecf176ab9
+  ZJMain: d340b8b1c13fd3e4ce462cd0358e9ef7385d4c76
   ZJPersonal: a941569fa3ddb49cf66ac1c8d660c5e71a31a431
   ZJRefresh: 2ab367241aea892e43afa57498d07c47f4c38897
   ZJRegion: e077f30a1ebf32398f2e9af9380a7fe1ab4ffc61
   ZJRequest: cbca3f9b01504851babe3d409121abe1e9560f1b
   ZJRoutableTargets: 617c378cddd85417abfe361d7234aabf58761cd5
-  ZJRouter: 2ae914db45b7844d11cb186d4de4dff75a5085b9
+  ZJRouter: fe06a0f15fa63398436cf3dc68c5ca7eb448c4d6
   ZJValidator: f1f4767a1a433ca41d2f33e0207172aa48afe58e
 
-PODFILE CHECKSUM: 4977a394db560ac1557b5e0b9526961c7456754a
+PODFILE CHECKSUM: 4c502c1309e0fdf38cdfd0caef2acd4dac68bb6a
 
 COCOAPODS: 1.11.2
